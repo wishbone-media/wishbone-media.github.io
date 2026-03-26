@@ -46,9 +46,15 @@ pnpm prepare
 
 ### 5. Check and commit those changes
 
-You should have 5 files changed so far, should be identical to this commit [build: better eslint/prettier setup via git-hook](https://github.com/wishbone-media/mapit-web-next/commit/88489d0a8a29a26e8feb8fd65b64b649bd4bda21#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519)
+You should have 5 files changed so far.
 
-I named this commit "build: better eslint/prettier setup via git-hook"
+I've also done this on your `buzz-web-next` repo on a separated branch "linting": https://github.com/wishbone-media/buzz-web-next/commits/linting/
+
+Right now your uncommited changes should be identical to this commit [build: better eslint/prettier setup via git-hook](https://github.com/wishbone-media/buzz-web-next/commit/1aec9df4831119000683b4b987c32ffe8a8b2219)
+
+I named this commit "build: better eslint/prettier setup via git-hook".
+
+Once you are happy that all 5 files are changed correctly, commit your change. If you somehow have trouble, just checkout the "linting" branch from `buzz-web-next`, it contains 1 commit ahead of the master branch with my commit with those 5 changed files.
 
 ### 6. Lint time
 
