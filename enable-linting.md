@@ -34,8 +34,8 @@ Please see the [Diff on package.json](https://github.com/wishbone-media/mapit-we
 ### 3. Replace your .prettierrc.json and eslint.config.js with the latest
 
 Download those two files and replace them in your project root:
-- [.prettierrc.json](https://raw.githubusercontent.com/wishbone-media/mapit-web-next/88489d0a8a29a26e8feb8fd65b64b649bd4bda21/.prettierrc.json?token=GHSAT0AAAAAADWDEHTHYJKQGJDXOKCT6AVA2OEOJHA) 
-- [eslint.config.js](https://raw.githubusercontent.com/wishbone-media/mapit-web-next/88489d0a8a29a26e8feb8fd65b64b649bd4bda21/eslint.config.js?token=GHSAT0AAAAAADWDEHTHZIKYJPIPU5ABEGFU2OEOJIA) 
+- [.prettierrc.json](https://github.com/wishbone-media/mapit-web-next/blob/master/.prettierrc.json)
+- [eslint.config.js](https://github.com/wishbone-media/mapit-web-next/blob/master/eslint.config.js)
 
 ### 4. Run pnpm script to be sure
 
@@ -54,7 +54,7 @@ I named this commit "build: better eslint/prettier setup via git-hook"
 
 Now run `pnpm lint`, the linting scripts will check all your existing `.js` and `.vue` files, automatically reformat for basic styling. It will throw errors for where your code fails vue's recommended rules.
 
-Your buzz-web-next will fail here, I think most if not all errors are due to failing no-unused-vars rules. They should be relatively easy to fix. Go ahead and fix them until `pnpm lint` fully pass without error. 
+Your buzz-web-next will fail here, I think most if not all errors are due to failing no-unused-vars rules. They should be relatively easy to fix, but if you got any issues please let me know I will sort them out for you. Go ahead and fix them until `pnpm lint` fully pass without error.
 
 I name this commit to "style: reformat via lint from updated eslint/prettier config, with adjustments"; you can now commit yours and finally, push those 2 commits to Github.
 
